@@ -1,8 +1,14 @@
-function setup() {
-    createCanvas(400, 400);
-    background(220);
+import Game from "./game/game.js";
+
+let game 
+
+function setup () {
+createCanvas(windowWidth, windowHeight);
+
+    game = new Game();
 }
 
+
 function draw() {
-    ellipse(mouseX, mouseY, 50, 50);
+    game.draw();
 }
