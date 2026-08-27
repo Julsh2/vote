@@ -5,3 +5,41 @@ html, body {
 canvas {
   display: block;
 }
+
+#home-screen {
+    display: block;
+}
+
+#voting-screen {
+    display: none;
+}
+
+.key {
+  width: 64px;
+  height: 52px;
+
+  border: 1px solid #111;
+  border-radius: 6px;
+
+  background: linear-gradient(
+    to bottom,
+    #303030 0%,
+    #1c1c1c 100%
+  );
+
+  color: #fff;
+
+  font-family: Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+
+  box-shadow:
+    0 4px 0 #090909,
+    0 5px 7px rgba(0,0,0,.35);
+
+  cursor: pointer;
+
+  transition:
+    transform .08s ease,
+    box-shadow .08s ease;
+}
