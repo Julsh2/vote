@@ -8,7 +8,10 @@ createCanvas(windowWidth, windowHeight);
     game = new Game();
 }
 
+window.setup = setup;
 
 function draw() {
     game.draw();
 }
+
+window.draw = draw;

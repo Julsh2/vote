@@ -1,4 +1,4 @@
-class ageScreen {
+export default class ageScreen {
 
     draw() {
         background(0, 255, 0)
