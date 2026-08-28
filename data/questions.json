@@ -1,0 +1,48 @@
+{
+  "perguntas": {
+    "6-7": [
+      {
+        "cargo": "Governador",
+        "pergunta": "O governador cuida do estado.",
+        "resposta": true,
+        "correcao": "Verdadeiro! O governador administra o estado e cuida de assuntos importantes, como saúde e educação."
+      }
+    ],
+
+    "8-10": [
+      {
+        "cargo": "Governador",
+        "pergunta": "O governador trabalha para cuidar de assuntos importantes do estado, como saúde e educação.",
+        "resposta": true,
+        "correcao": "Verdadeiro! O governador dirige o governo do estado e ajuda a organizar serviços públicos, como hospitais e escolas estaduais."
+      }
+    ],
+
+    "11-13": [
+      {
+        "cargo": "Governador",
+        "pergunta": "O governador é responsável por administrar o governo do estado.",
+        "resposta": true,
+        "correcao": "Verdadeiro! O governador dirige a administração estadual e cria e coordena políticas públicas. Ele também é responsável pela segurança pública do estado."
+      }
+    ],
+
+    "14-17": [
+      {
+        "cargo": "Governador",
+        "pergunta": "O governador faz parte do Poder Executivo e é responsável pela administração do estado.",
+        "resposta": true,
+        "correcao": "Verdadeiro! O governador é a principal autoridade do Poder Executivo estadual. Ele administra os serviços e políticas públicas do estado e comanda a segurança pública estadual."
+      }
+    ],
+
+    "18+": [
+      {
+        "cargo": "Governador",
+        "pergunta": "Cabe ao governador dirigir a administração estadual e implementar políticas públicas no estado.",
+        "resposta": true,
+        "correcao": "Verdadeiro! O governador é o chefe do Poder Executivo estadual. Entre suas atribuições estão dirigir a administração do estado, implementar políticas públicas, comandar a segurança pública e representar o estado em relações jurídicas, políticas e administrativas."
+      }
+    ]
+  }
+}
