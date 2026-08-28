@@ -26,7 +26,8 @@ const PALETTES = {
 // Classe principal da tela Home
 export default class HomeScreen {
 // Construtor da classe
-    constructor() {
+    constructor(fontHome) {
+        this.fontHome = fontHome;
         this.cells = []; // Array de células da malha
         this.currentPattern = floor(random(4)); // Padrão atual
         this.growth = 0; // Crescimento do círculo azul
@@ -34,6 +35,8 @@ export default class HomeScreen {
         this.grew = false; // Se o círculo já cresceu
         this.criarMalha(); // Cria a malha de células
         noStroke(); // Remove as bordas das formas
+        this.button = createButton("COMEÇAR");
+
     }
 
     draw() { // Função principal de desenho
@@ -53,10 +56,13 @@ export default class HomeScreen {
         if (this.grew) { // Se o círculo já cresceu, exibe o título
             fill(CONFIG.colors.branco); // Cor do texto branco
             textAlign(CENTER, CENTER); // Centraliza o texto
-            textSize(120); // Tamanho do texto
-            textFont("Andale Mono, monospace"); // Fonte monoespaçada
-            textStyle(BOLD); // Deixa o texto em negrito
-            text("VOTE", width / 2, height / 2); // Desenha o título no centro
+            textSize(140); // Tamanho do texto
+            textFont(this.fontHome); // Fonte monoespaçada
+            text("VOTE!", width / 2, (height / 2)-70); // Desenha o título no centro
+            this.button.show();
+            this.button.style("border-radius", "30px");
+            this.button.position(width / 2, (height / 2)+120)
+
         }
     }
 

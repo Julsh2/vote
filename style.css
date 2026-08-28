@@ -6,6 +6,11 @@ canvas {
   display: block;
 }
 
+@font-face {
+    font-family: "Magic Prince";
+    src: url("assets/fonts/magicprince.otf") format("opentype");
+}
+
 #home-screen {
     display: block;
 }
@@ -42,4 +47,27 @@ canvas {
   transition:
     transform .08s ease,
     box-shadow .08s ease;
+}
+button {
+
+    font-family: "Magic Prince", sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+
+    border-radius: 100px;
+
+    transform: translateX(-50%);
+
+    padding: 14px 50px;
+
+    background-color: #002776;
+    color: #FFFFFF;
+
+    border: 4px solid #FFFFFF;
+    border-radius: 0;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    cursor: pointer;
 }

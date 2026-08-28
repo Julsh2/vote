@@ -3,11 +3,11 @@ import GameState from "./gamestate.js";
 
 class Game {
 
-    constructor() {
+    constructor(fontHome) {
 
         this.state = GameState.HOME;
 
-        this.homeScreen = new Screens.HomeScreen();
+        this.homeScreen = new Screens.HomeScreen(fontHome);
 
     }
 
